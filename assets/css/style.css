@@ -1,0 +1,123 @@
+body {
+    background-color: beige;
+    /* background-image: url("https://pbs.twimg.com/media/CBq_VzRXIAE4O0h.jpg");
+    background-repeat: no-repeat; */
+}
+
+/* Left panel */
+.warrior-choice {
+    border: 2px solid black;
+    height: -webkit-fill-available;
+    background-color: green;
+    
+}
+
+.stages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+/* Where they fight */
+.stage {
+    border: 2px solid black;
+    height: 371px;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    /* margin: 10px; */
+}
+
+/* Defeat-yard */
+
+.fallen-stage {
+    border: 2px solid black;
+    height: 371px;
+    /* width: 100%; */
+    /* margin: 10px; */
+    bottom: 0;
+}
+
+/* Right panel */
+
+.enemy-choice {
+    border: 2px solid black;
+    height: -webkit-fill-available;
+    background-color: darkred;
+}
+
+/* Warrior Choice */
+
+#spongebob-left {
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#squidward-left {
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#larry-left {
+    margin: 10px;
+    border: 2px solid black;
+
+}
+
+#patrick-left {
+    margin: 10px;
+    border: 2px solid black;
+    /* background-image: url("http://vignette1.wikia.nocookie.net/spongebob-fanon/images/c/cf/Patrick.png/revision/latest?cb=20130629230936"); */
+    
+}
+
+/* Enemy Choice */
+
+#spongebob-right {
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#squidward-right {
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#larry-right {
+    margin: 10px;
+    border: 2px solid black;
+
+}
+
+#patrick-right {
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* images */
+
+.sponge-image {
+    height: 50%;
+    width: 50%;
+}
+
+.patrick-image {
+    height: 50%;
+    width: 50%;
+}
+
+.squidward-image {
+    height: 50%;
+    width: 50%;
+}
+
+.larry-image {
+    height: 50%;
+    width: 50%;
+}
+
+/* Display stats */
+
+#html-sponge-stats {
+    font-weight: bold;
+}
