@@ -3,46 +3,66 @@ body {
     /* background-image: url("https://pbs.twimg.com/media/CBq_VzRXIAE4O0h.jpg");
     background-repeat: no-repeat; */
 }
+/* h1 styling */
+#choose-your-enemy {
+    font-weight: bolder;
+    color: black;
+}
+
+#choose-your-warrior {
+    font-weight: bolder;
+    color: black;
+    font-size: 34px;
+}
 
 /* Left panel */
 .warrior-choice {
     border: 2px solid black;
-    height: -webkit-fill-available;
+    height: 100vh;
     background-color: green;
     
 }
 
-.stages {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+/* .stages { */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
     
-}
+/* } */
 
 /* Where they fight */
-.stage {
+.stage-row {
     border: 2px solid black;
-    height: 371px;
+    height: 50vh;
     /* width: 100%; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* margin: 10px; */
 }
 
 /* Defeat-yard */
 
-.fallen-stage {
+.fallen-stage-row {
     border: 2px solid black;
-    height: 371px;
+    height: 50vh;
     /* width: 100%; */
     /* margin: 10px; */
-    bottom: 0;
+    /* bottom: 0; */
+}
+.stage-right {
+    height: 50vh;
+    border: 1px solid black;
+}
+
+.stage-left {
+    height: 50vh;
+    border: 1px solid black; 
 }
 
 /* Right panel */
 
 .enemy-choice {
     border: 2px solid black;
-    height: -webkit-fill-available;
+    height: 100vh;
     background-color: darkred;
 }
 
@@ -96,28 +116,75 @@ body {
 
 /* images */
 
-.sponge-image {
+.sponge-image-left {
     height: 50%;
     width: 50%;
 }
 
-.patrick-image {
+.patrick-image-left {
     height: 50%;
     width: 50%;
 }
 
-.squidward-image {
+.squidward-image-left {
     height: 50%;
     width: 50%;
 }
 
-.larry-image {
+.larry-image-left {
+    height: 50%;
+    width: 50%;
+}
+
+.sponge-image-right {
+    height: 50%;
+    width: 50%;
+}
+
+.patrick-image-right {
+    height: 50%;
+    width: 50%;
+}
+
+.squidward-image-right {
+    height: 50%;
+    width: 50%;
+}
+
+.larry-image-right {
     height: 50%;
     width: 50%;
 }
 
 /* Display stats */
 
-#html-sponge-stats {
+
+/* stats on page display */
+.html-sponge-stats {
+    float:right;
+    font-size: 15px;
+    background-color: lightgray;
     font-weight: bold;
 }
+
+.html-pat-stats {
+    float:right;
+    font-size: 15px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.html-squid-stats {
+    float:right;
+    font-size: 15px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.html-larry-stats {
+    float:right;
+    font-size: 15px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+/* pointer pseudo class for pointer (cursor pointer style) -------just a side note */
